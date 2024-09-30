@@ -13,7 +13,6 @@ const Home = () => {
       item.category === "men's clothing" || item.category === "women's clothing"
     );
   });
-  console.log(filteredProducts);
   // get each product title of the above filter with .map
   
   return (
