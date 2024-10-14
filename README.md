@@ -56,7 +56,7 @@ src
         └── (Provides) 
             └── isOpen and setIsOpen to components
 ```
-
+```
 DESCRIPTION:
     src: The main folder of the application containing all the files.
         index.js: The entry point of the application that renders the main component.
@@ -74,7 +74,7 @@ DESCRIPTION:
             CartContext.js: Context for managing the shopping cart.
             ProductContext.js: Context for managing the list of products.
             SidebarContext.js: Context for managing the sidebar state.
-
+```
 RELATIONSHIP  BETWEEN FILES:
 - Context Providers:
 The contexts (CartContext, ProductContext, and SidebarContext) are established at the root level in index.js.
