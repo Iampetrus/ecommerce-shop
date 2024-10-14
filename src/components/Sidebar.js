@@ -39,7 +39,7 @@ const Sidebar = () => {
           return <CartItem item={item} key={item.id} />;
         })}
       </div>
-      <div flex flex-col gap-y-3 py-4 mt-4>
+      <div className='flex flex-col gap-y-3 py-4 mt-4 **mb-4**'>
         <div className="flex w-full justify-between items-center">
           {/* total */}
           <div className="uppercase font-semibold">
@@ -53,18 +53,15 @@ const Sidebar = () => {
             <FiTrash2 />
           </div>
         </div>
+        <div className='**space-y-3**'>
         <Link
-          to='/'
-          className='bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium'
-        >
-          View Cart
-        </Link>
-        <Link
-          to='/'
+          to='/checkout'
           className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
+          onClick={handleClose}
         >
           Checkout
         </Link>
+        </div>
       </div>
     </div>
   );
