@@ -55,6 +55,7 @@ src
         │    └── sidebar open/close state
         └── (Provides) 
             └── isOpen and setIsOpen to components
+```
 
 DESCRIPTION:
     src: The main folder of the application containing all the files.
@@ -92,4 +93,3 @@ SUMMARY
 This project structure provides a clear separation of concerns, where contexts manage state and components handle presentation.
 Each file plays a distinct role, ensuring the application is modular and easy to maintain.
 Using context providers helps in avoiding prop drilling and makes the application scalable as more features are added.
-```
