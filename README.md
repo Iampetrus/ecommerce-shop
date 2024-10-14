@@ -1,5 +1,6 @@
 # This is a React JS, Tailwind CSS and Fake Store API call, Ecommerce Website.
 
+```
 src
 │
 ├── index.js
@@ -22,7 +23,7 @@ src
     ├── ProductContext.js
     └── SidebarContext.js
 
-Description:
+DESCRIPTION:
     src: The main folder of the application containing all the files.
         index.js: The entry point of the application that renders the main component.
         App.js: The main component that organizes the application and defines the routes.
@@ -39,3 +40,4 @@ Description:
             CartContext.js: Context for managing the shopping cart.
             ProductContext.js: Context for managing the list of products.
             SidebarContext.js: Context for managing the sidebar state.
+```
