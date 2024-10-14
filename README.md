@@ -55,7 +55,6 @@ src
         │    └── sidebar open/close state
         └── (Provides) 
             └── isOpen and setIsOpen to components
-```
 
 DESCRIPTION:
     src: The main folder of the application containing all the files.
@@ -74,6 +73,7 @@ DESCRIPTION:
             CartContext.js: Context for managing the shopping cart.
             ProductContext.js: Context for managing the list of products.
             SidebarContext.js: Context for managing the sidebar state.
+```
 
 RELATIONSHIP  BETWEEN FILES:
 - Context Providers:
