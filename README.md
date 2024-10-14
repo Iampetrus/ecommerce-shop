@@ -75,6 +75,7 @@ DESCRIPTION:
             ProductContext.js: Context for managing the list of products.
             SidebarContext.js: Context for managing the sidebar state.
 ```
+```
 RELATIONSHIP  BETWEEN FILES:
 - Context Providers:
 The contexts (CartContext, ProductContext, and SidebarContext) are established at the root level in index.js.
@@ -88,8 +89,10 @@ This triggers a re-render of all components that depend on that state, ensuring 
 - Routing:
 App.js sets up the routing between different components, such as navigating from the home page to product details.
 This navigation is managed with react-router-dom, ensuring a smooth user experience.
-
+```
+```
 SUMMARY
 This project structure provides a clear separation of concerns, where contexts manage state and components handle presentation.
 Each file plays a distinct role, ensuring the application is modular and easy to maintain.
 Using context providers helps in avoiding prop drilling and makes the application scalable as more features are added.
+```
