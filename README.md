@@ -1,5 +1,7 @@
 # This is a React JS, Tailwind CSS and Fake Store API call, Ecommerce Website.
-
+```
+Gallery of products to choose and view, see, add or delete in your shopping bag, and view in checkout prior to pay.
+```
 ```
 src
 ├── index.js  
